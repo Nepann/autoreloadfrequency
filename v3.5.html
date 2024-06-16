@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>AutoreloadFrequency v.1.0</title>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="v3.5.js"></script>
+</head>
+
+<body style="background: black;">
+    <style>
+        #overlay {
+            display: none;
+            position: fixed;
+            z-index: 2;
+            background: black;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        #kiwiframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .centertext {
+            text-align: center;
+            position: fixed;
+            top: 50%;
+            bottom: 50%;
+            width: 100%;
+        }
+    </style>
+    <script src="auto.js"></script>
+    <iframe src="" id="kiwiframe">
+        Your browser doesn't support iframes
+    </iframe>
+    <div id="overlay">
+        <h1 class="centertext" style="color: #1fde35;">
+            Loading the receiver...
+        </h1>
+    </div>
+
+    <div class="centertext">
+        <h1 style="color: #0093ff;">Reloading the receiver...</h1>
+        <p style="color: red; font-size: 1.17em; font-weight: bolder;" id="status"></p>
+    </div>
+</body>
+
+</html>
