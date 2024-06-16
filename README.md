@@ -1,4 +1,4 @@
-# autoreloadfrequency
+# AutoreloadFrequency
 ## v.1.0
 Automatic frequency change for streams. Based on Autoreload v.3.5. (https://github.com/theverygaming/uvbstuff)
 --
